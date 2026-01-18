@@ -21,6 +21,13 @@ genai.configure(api_key=GEMINI_API_KEY)
 gemini_model = genai.GenerativeModel("gemini-2.5-flash")
 
 app = FastAPI()
+origins = [
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "https://lexion-rag.vercel.app/",  # Replace with your actual Vercel URL
+    "https://*.vercel.app",  # Allow all Vercel preview deployments
+]
+
 
 # Allow frontend to call backend
 app.add_middleware(
