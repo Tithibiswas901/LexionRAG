@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Upload, FileText, Loader2 } from "lucide-react";
 import axios from "axios";
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://lexionrag.onrender.com";
 
 function FileUpload({ onUploadComplete, isUploading, setIsUploading }) {
   const [selectedFile, setSelectedFile] = useState(null);

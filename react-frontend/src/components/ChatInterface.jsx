@@ -3,7 +3,7 @@ import { Send, Loader2, MessageSquare } from "lucide-react";
 import axios from "axios";
 import Message from "./Message";
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://lexionrag.onrender.com";
 
 function ChatInterface({ docId }) {
   const [messages, setMessages] = useState([

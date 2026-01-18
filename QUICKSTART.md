@@ -7,7 +7,7 @@ cd Backend
 python main.py
 ```
 
-Make sure it's running on `http://127.0.0.1:8000`
+Make sure it's running on `https://lexionrag.onrender.com`
 
 ## Step 2: Install Frontend Dependencies
 
@@ -48,7 +48,7 @@ To change the backend URL, edit these files:
 - `src/components/FileUpload.jsx`
 - `src/components/ChatInterface.jsx`
 
-Look for: `const BACKEND_URL = 'http://127.0.0.1:8000'`
+Look for: `const BACKEND_URL = 'https://lexionrag.onrender.com'`
 
 ## 📱 Screenshots
 

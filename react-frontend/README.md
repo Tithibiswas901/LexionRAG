@@ -17,7 +17,7 @@ A modern, clean React-based UI for your RAG (Retrieval-Augmented Generation) cha
 ### Prerequisites
 
 - Node.js 18+ installed
-- Python backend running on `http://127.0.0.1:8000`
+- Python backend running on `https://lexionrag.onrender.com`
 
 ### Installation
 
